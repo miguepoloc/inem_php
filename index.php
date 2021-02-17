@@ -24,51 +24,34 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/fontawesome.css">
 </head>
 
 <body>
-<?php include '/pages/encabezado.php'; ?>
-	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
-		<div class="container d-flex align-items-center">
-			<a class="navbar-brand" href="index.html">INEM Simón Bolívar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Inicio</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
-					<li class="nav-item"><a href="courses.html" class="nav-link">Áreas</a></li>
-					<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<?php include '/pages/encabezado.php'; ?>
 	<!-- END nav -->
 
 	<section class="home-slider owl-carousel">
-		<div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+		<div class="slider-item" style="background-image:url(images/colegio0.jpeg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
 					<div class="col-md-8 text-center ftco-animate">
-						<h1 class="mb-4">Kids Are The Best <span>Explorers In The World</span></h1>
+						<h1 class="mb-4">Nuevas <span>instalaciones</span></h1>
 						<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Leer más</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+		<div class="slider-item" style="background-image:url(images/colegio12.jpeg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
 					<div class="col-md-8 text-center ftco-animate">
-						<h1 class="mb-4">Perfect Learned<span> For Your Child</span></h1>
+						<h1 class="mb-4">Vista <span> panorámica</span></h1>
 						<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Leer más</a></p>
 					</div>
 				</div>
@@ -82,44 +65,44 @@
 				<div class="col-md-3 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-primary">
 					<div class="media block-6 d-block text-center">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-teacher"></span>
+							<span><i class="fas fa-chalkboard-teacher"></i></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Certified Teachers</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">Profesores de calidad</h3>
+							<p>Muy buenos docentes que se capacitan día a día</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-tertiary">
 					<div class="media block-6 d-block text-center">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-reading"></span>
+							<span><i class="fas fa-school"></i></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Special Education</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">Aulas nuevas</h3>
+							<p>Mejores aulas apoyan el crecimiento de los alumnos</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-fifth">
 					<div class="media block-6 d-block text-center">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-books"></span>
+							<span><i class="fas fa-book"></i></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Book &amp; Library</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">Nueva biblioteca</h3>
+							<p>Leer mejor y así crecen los conocimientos.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-quarternary">
 					<div class="media block-6 d-block text-center">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-diploma"></span>
+							<span><i class="fas fa-user-graduate"></i></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Certification</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">Graduados de alta calidad</h3>
+							<p>Tenemos jornada de mañana y nocturna en las malvinas.</p>
 						</div>
 					</div>
 				</div>
@@ -132,15 +115,15 @@
 			<div class="row">
 				<div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
 					<div class="text px-4 ftco-animate">
-						<h2 class="mb-4">Welcome to Kiddos Learning School</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-						<p><a href="#" class="btn btn-secondary px-4 py-3">Read More</a></p>
+						<h2 class="mb-4">Bienvenidos al INEM Simón Bolívar</h2>
+						<p>Es una gran escuela.</p>
+						<p>Esperamos estudies con nosotros.</p>
+						<p><a href="#" class="btn btn-secondary px-4 py-3">Leer más</a></p>
 					</div>
 				</div>
 				<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-					<h2 class="mb-4">What We Offer</h2>
-					<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
+					<h2 class="mb-4">Institución</h2>
+					<p>Los símbolos institucionales son necesarios.</p>
 					<div class="row mt-5">
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
@@ -202,16 +185,16 @@
 		</div>
 	</section>
 
-	<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+	<section class="ftco-intro" style="background-image: url(images/colegio9.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
-					<h2>Teaching Your Child Some Good Manners</h2>
-					<p class="mb-0">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<h2>Comprometidos con el medio ambiente</h2>
+					<p class="mb-0">Tenemos un campus verde y diverso.</p>
 				</div>
 				<div class="col-md-3 d-flex align-items-center">
-					<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Take a Course</a></p>
+					<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Inscribirse</a></p>
 				</div>
 			</div>
 		</div>
@@ -323,15 +306,15 @@
 				<div class="col-md-6 course d-lg-flex ftco-animate">
 					<div class="img" style="background-image: url(images/electronica.jpg);"></div>
 					<div class="text bg-light p-4">
-						<h3><a href="#">Electricidad, Electrónica, Metalmecánica</a></h3>
+						<h3><a href="#">Industrial</a></h3>
 						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
 						<p>Trata la temática relacionada con la electrónica</p>
 					</div>
 				</div>
 				<div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(images/course-2.jpg);"></div>
+					<div class="img" style="background-image: url(images/empresa.jpg);"></div>
 					<div class="text bg-light p-4">
-						<h3><a href="#">Talleres de Informática y Práctica Empresarial</a></h3>
+						<h3><a href="#">Gestión Ambiental</a></h3>
 						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
 						<p>Hacer empresas</p>
 					</div>
@@ -339,7 +322,7 @@
 				<div class="col-md-6 course d-lg-flex ftco-animate">
 					<div class="img" style="background-image: url(images/course-3.jpg);"></div>
 					<div class="text bg-light p-4">
-						<h3><a href="#">Proyección Comunitaria</a></h3>
+						<h3><a href="#">Comercial</a></h3>
 						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
 						<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
 					</div>
@@ -347,7 +330,7 @@
 				<div class="col-md-6 course d-lg-flex ftco-animate">
 					<div class="img" style="background-image: url(images/course-4.jpg);"></div>
 					<div class="text bg-light p-4">
-						<h3><a href="#">Talleres de Confecciones Industriales</a></h3>
+						<h3><a href="#">Promoción social</a></h3>
 						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
 						<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
 					</div>
@@ -360,7 +343,7 @@
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
-					<h2 class="mb-4"><span>20 Years of</span> Experience</h2>
+					<h2 class="mb-4"><span>51 Años de</span> Experiencia</h2>
 					<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
 				</div>
 			</div>
@@ -371,8 +354,8 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="18">0</strong>
-									<span>Certified Teachers</span>
+									<strong class="number" data-number="50">0</strong>
+									<span>Docentes</span>
 								</div>
 							</div>
 						</div>
@@ -381,7 +364,7 @@
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
 									<strong class="number" data-number="351">0</strong>
-									<span>Successful Kids</span>
+									<span>Alumnos</span>
 								</div>
 							</div>
 						</div>
@@ -389,8 +372,8 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="564">0</strong>
-									<span>Happy Parents</span>
+									<strong class="number" data-number="100">0</strong>
+									<span>Aulas</span>
 								</div>
 							</div>
 						</div>
@@ -398,8 +381,8 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="300">0</strong>
-									<span>Awards Won</span>
+									<strong class="number" data-number="2">0</strong>
+									<span>Sedes</span>
 								</div>
 							</div>
 						</div>
@@ -496,49 +479,37 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
+	<section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/colegio1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row justify-content-end">
 				<div class="col-md-6 py-5 px-md-5 bg-primary">
 					<div class="heading-section heading-section-white ftco-animate mb-5">
-						<h2 class="mb-4">Request A Quote</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2 class="mb-4">Realizar una solicitud</h2>
+						<p>Puedes comunicarte con nosotros y realizar una solicitud especial.</p>
 					</div>
 					<form action="#" class="appointment-form ftco-animate">
 						<div class="d-md-flex">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="First Name">
+								<input type="text" class="form-control" placeholder="Nombre">
 							</div>
 							<div class="form-group ml-md-4">
-								<input type="text" class="form-control" placeholder="Last Name">
+								<input type="text" class="form-control" placeholder="Apellido">
 							</div>
 						</div>
 						<div class="d-md-flex">
 							<div class="form-group">
-								<div class="form-field">
-									<div class="select-wrap">
-										<div class="icon"><span class="ion-ios-arrow-down"></span></div>
-										<select name="" id="" class="form-control">
-											<option value="">Select Your Course</option>
-											<option value="">Art Lesson</option>
-											<option value="">Language Lesson</option>
-											<option value="">Music Lesson</option>
-											<option value="">Sports</option>
-											<option value="">Other Services</option>
-										</select>
-									</div>
-								</div>
+							<input type="text" class="form-control" placeholder="Correo">
 							</div>
 							<div class="form-group ml-md-4">
-								<input type="text" class="form-control" placeholder="Phone">
+								<input type="text" class="form-control" placeholder="Teléfono">
 							</div>
 						</div>
 						<div class="d-md-flex">
 							<div class="form-group">
-								<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+								<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Mensaje"></textarea>
 							</div>
 							<div class="form-group ml-md-4">
-								<input type="submit" value="Request A Quote" class="btn btn-secondary py-3 px-4">
+								<input type="submit" value="Realizar la solicitud" class="btn btn-secondary py-3 px-4">
 							</div>
 						</div>
 					</form>
@@ -551,61 +522,61 @@
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section ftco-animate">
-					<h2 class="mb-4"><span>Our</span> Pricing</h2>
-					<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					<h2 class="mb-4"><span>Niveles</span> de Educación</h2>
+					<p>Te ofrece los siguientes niveles</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
-							<h3 class="mb-3">Basic</h3>
+							<h3 class="mb-3">Pre-Escolar</h3>
 							<p><span class="price">$24.50</span> <span class="per">/ 5mos</span></p>
 						</div>
 						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
 						<div class="px-4">
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
-						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Take A Course</a></p>
+						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Inscríbete</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
-							<h3 class="mb-3">Standard</h3>
+							<h3 class="mb-3">Básica Primaria</h3>
 							<p><span class="price">$34.50</span> <span class="per">/ 5mos</span></p>
 						</div>
 						<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
 						<div class="px-4">
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
-						<p class="button text-center"><a href="#" class="btn btn-secondary px-4 py-3">Take A Course</a></p>
+						<p class="button text-center"><a href="#" class="btn btn-secondary px-4 py-3">Inscríbete</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="pricing-entry bg-light active pb-4 text-center">
 						<div>
-							<h3 class="mb-3">Premium</h3>
+							<h3 class="mb-3">Básica Secundaria</h3>
 							<p><span class="price">$54.50</span> <span class="per">/ 5mos</span></p>
 						</div>
 						<div class="img" style="background-image: url(images/bg_3.jpg);"></div>
 						<div class="px-4">
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
-						<p class="button text-center"><a href="#" class="btn btn-tertiary px-4 py-3">Take A Course</a></p>
+						<p class="button text-center"><a href="#" class="btn btn-tertiary px-4 py-3">Inscríbete</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
-							<h3 class="mb-3">Platinum</h3>
+							<h3 class="mb-3">Nocturna</h3>
 							<p><span class="price">$89.50</span> <span class="per">/ 5mos</span></p>
 						</div>
 						<div class="img" style="background-image: url(images/bg_5.jpg);"></div>
 						<div class="px-4">
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
-						<p class="button text-center"><a href="#" class="btn btn-quarternary px-4 py-3">Take A Course</a></p>
+						<p class="button text-center"><a href="#" class="btn btn-quarternary px-4 py-3">Inscríbete</a></p>
 					</div>
 				</div>
 			</div>
@@ -616,8 +587,8 @@
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section ftco-animate">
-					<h2 class="mb-4"><span>Recent</span> Blog</h2>
-					<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					<h2 class="mb-4"><span>Noticias</span> Recientes</h2>
+					<p>Noticias de relevancia</p>
 				</div>
 			</div>
 			<div class="row">
@@ -752,6 +723,7 @@
 	<script src="js/scrollax.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
+	<script src="js/fontawesome.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
