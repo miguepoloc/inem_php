@@ -33,12 +33,12 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="index.php" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">Institucional</a></li>
-                <li class="nav-item"><a href="teacher.html" class="nav-link">Personal</a></li>
-                <li class="nav-item"><a href="courses.html" class="nav-link">Áreas Técnicas</a></li>
-                <li class="nav-item"><a href="pricing.html" class="nav-link">Ofertas</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Noticias</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Institucional</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Personal</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Áreas Técnicas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ofertas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
             </ul>
         </div>
     </div>

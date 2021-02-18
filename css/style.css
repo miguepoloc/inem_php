@@ -9747,7 +9747,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #1eaaf1;
+  color: #0b6e38;
 }
 
 a:hover, a:focus {
@@ -10650,7 +10650,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .course .text .subheading span {
-  color: #fda638;
+  color: #f1e900;
 }
 
 .course .text h3 {
@@ -11348,7 +11348,7 @@ textarea.form-control {
 }
 
 .heading-section.heading-section-black h2 {
-  color: #000000;
+  color: #f1e900;
 }
 
 .hotel-img, .img, .blog-img, .user-img {
@@ -11519,7 +11519,7 @@ textarea.form-control {
 
 .mfp-with-zoom .mfp-container, .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -11582,14 +11582,14 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 500;
   font-size: 50px;
-  color: #1eaaf1;
+  color: #f1e900;
   display: block;
 }
 
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 @media (max-width: 767.98px) {

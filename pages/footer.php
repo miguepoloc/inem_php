@@ -1,7 +1,7 @@
 <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div class="container">
         <div class="row mb-5">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-6">
                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2">¿Alguna pregunta?</h2>
                     <div class="block-23 mb-3">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <!-- <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2">Noticias Recientes</h2>
                     <div class="block-21 mb-4 d-flex">
@@ -39,8 +39,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
+            </div> -->
+            <!-- <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5 ml-md-4">
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
@@ -51,8 +51,8 @@
                         <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
+            </div> -->
+            <div class="col-md-6 col-lg-6">
                 <!-- <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2">Subscribe Us!</h2>
                     <form action="#" class="subscribe-form">

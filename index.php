@@ -27,10 +27,13 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="css/fontawesome.css">
+
+	<link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body>
-	<?php include '/pages/encabezado.php'; ?>
+	<?php include 'pages/encabezado.php'; ?>
 	<!-- END nav -->
 
 	<section class="home-slider owl-carousel">
@@ -38,10 +41,6 @@
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-					<!-- <div class="col-md-8 text-center ftco-animate">
-						<h1 class="mb-4">Vista <span> panorámica</span></h1>
-						<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Leer más</a></p>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -128,55 +127,55 @@
 					<div class="row mt-5">
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-university icon-circle"></i></div>
 								<div class="text">
-									<h3>Safety First</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Horizonte Institucional</h3>
+									<p>Representa hacia dónde va la institucin</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-flag icon-circle"></i></div>
 								<div class="text">
-									<h3>Regular Classes</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Símbolos Institucionales</h3>
+									<p>Los símbolos que nos representan.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-user-friends icon-circle"></i></div>
 								<div class="text">
-									<h3>Certified Teachers</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Perfiles</h3>
+									<p>Describe el ser de cada persona perteneciente a la institución.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-education"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-receipt icon-circle"></i></div>
 								<div class="text">
-									<h3>Sufficient Classrooms</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Derechos y deberes</h3>
+									<p>Presenta lo que deben hacer y los derechos de cada persona.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-user-graduate icon-circle"></i></div>
 								<div class="text">
-									<h3>Creative Lessons</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Procedimientos correctivos</h3>
+									<p>El deber de corregir.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-kids"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><i class="fas fa-chalkboard-teacher icon-circle"></i></div>
 								<div class="text">
-									<h3>Sports Facilities</h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+									<h3>Procedimientos académicos</h3>
+									<p>Lineamientos a seguir.</p>
 								</div>
 							</div>
 						</div>
@@ -186,7 +185,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-intro" style="background-image: url(images/colegio9.jpeg);" data-stellar-background-ratio="0.5">
+	<!-- <section class="ftco-intro" style="background-image: url(images/colegio9.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -199,101 +198,101 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
-	<section class="ftco-section ftco-no-pb">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-2">
-				<div class="col-md-8 text-center heading-section ftco-animate">
-					<h2 class="mb-4"><span>Certified</span> Teachers</h2>
-					<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+	<!-- <section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+					<div class="col-md-8 text-center heading-section ftco-animate">
+						<h2 class="mb-4"><span>Certified</span> Teachers</h2>
+						<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/teacher-1.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Bianca Wilson</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/teacher-2.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mitch Parker</h3>
+								<span class="position mb-2">English Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/teacher-3.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Stella Smith</h3>
+								<span class="position mb-2">Art Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/teacher-4.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Monshe Henderson</h3>
+								<span class="position mb-2">Science Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/teacher-1.jpg);"></div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>Bianca Wilson</h3>
-							<span class="position mb-2">Teacher</span>
-							<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/teacher-2.jpg);"></div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>Mitch Parker</h3>
-							<span class="position mb-2">English Teacher</span>
-							<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/teacher-3.jpg);"></div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>Stella Smith</h3>
-							<span class="position mb-2">Art Teacher</span>
-							<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/teacher-4.jpg);"></div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>Monshe Henderson</h3>
-							<span class="position mb-2">Science Teacher</span>
-							<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+		</section> -->
 
 	<section class="ftco-section">
 		<div class="container">
@@ -308,7 +307,7 @@
 					<div class="img" style="background-image: url(images/electronica.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Industrial</a></h3>
-						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
+						<p class="subheading"><span>Horario:</span> 7:00 am - 1:00 pm</p>
 						<p>Trata la temática relacionada con la electrónica</p>
 					</div>
 				</div>
@@ -316,7 +315,7 @@
 					<div class="img" style="background-image: url(images/empresa.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Gestión Ambiental</a></h3>
-						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
+						<p class="subheading"><span>Horario:</span> 7:00 am - 1:00 pm</p>
 						<p>Hacer empresas</p>
 					</div>
 				</div>
@@ -324,28 +323,28 @@
 					<div class="img" style="background-image: url(images/course-3.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Comercial</a></h3>
-						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+						<p class="subheading"><span>Horario:</span> 7:00 am - 1:00 pm</p>
+						<p>Facilidad de comercio</p>
 					</div>
 				</div>
 				<div class="col-md-6 course d-lg-flex ftco-animate">
 					<div class="img" style="background-image: url(images/course-4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Promoción social</a></h3>
-						<p class="subheading"><span>Horario:</span> 9:00am - 10am</p>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+						<p class="subheading"><span>Horario:</span> 7:00 am - 1:00 pm</p>
+						<p>Con el fin de ayudar a las personas</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpg);" data-stellar-background-ratio="0.5">
+	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/colegio3.png); " data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section heading-section-black ftco-animate">
-					<h2 class="mb-4"><span>51 Años de</span> Experiencia</h2>
-					<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					<h2 class="mb-4"><span>50 Años de</span> Experiencia</h2>
+					<p style="color: white;">Contamos con grandes capacidades</p>
 				</div>
 			</div>
 			<div class="row d-md-flex align-items-center justify-content-center">
@@ -355,7 +354,7 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="50">0</strong>
+									<strong class="number" data-number="120">0</strong>
 									<span>Docentes</span>
 								</div>
 							</div>
@@ -364,7 +363,7 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="351">0</strong>
+									<strong class="number" data-number="3400">0</strong>
 									<span>Alumnos</span>
 								</div>
 							</div>
@@ -373,7 +372,7 @@
 							<div class="block-18">
 								<div class="icon"><span class="flaticon-doctor"></span></div>
 								<div class="text">
-									<strong class="number" data-number="100">0</strong>
+									<strong class="number" data-number="110">0</strong>
 									<span>Aulas</span>
 								</div>
 							</div>
@@ -393,7 +392,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section testimony-section bg-light">
+	<!-- <section class="ftco-section testimony-section bg-light">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section ftco-animate">
@@ -478,9 +477,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-	<section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/colegio1.jpeg);" data-stellar-background-ratio="0.5">
+	<!-- <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/colegio1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row justify-content-end">
 				<div class="col-md-6 py-5 px-md-5 bg-primary">
@@ -517,7 +516,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="ftco-section">
 		<div class="container">
@@ -532,11 +531,11 @@
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
 							<h3 class="mb-3">Pre-Escolar</h3>
-							<p><span class="price">$24.50</span> <span class="per">/ 5mos</span></p>
+							<!-- <p><span class="price">$24.50</span> <span class="per">/ 5mos</span></p> -->
 						</div>
-						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
+						<div class="img" style="background-image: url(images/colegio9.jpeg);"></div>
 						<div class="px-4">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Contamos con este nivel en la sede principal y en las Malvinas.</p>
 						</div>
 						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Inscríbete</a></p>
 					</div>
@@ -545,11 +544,11 @@
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
 							<h3 class="mb-3">Básica Primaria</h3>
-							<p><span class="price">$34.50</span> <span class="per">/ 5mos</span></p>
+							<!-- <p><span class="price">$34.50</span> <span class="per">/ 5mos</span></p> -->
 						</div>
-						<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
+						<div class="img" style="background-image: url(images/colegio10.jpeg);"></div>
 						<div class="px-4">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Contamos con este nivel en la sede principal y en las Malvinas.</p>
 						</div>
 						<p class="button text-center"><a href="#" class="btn btn-secondary px-4 py-3">Inscríbete</a></p>
 					</div>
@@ -558,11 +557,11 @@
 					<div class="pricing-entry bg-light active pb-4 text-center">
 						<div>
 							<h3 class="mb-3">Básica Secundaria</h3>
-							<p><span class="price">$54.50</span> <span class="per">/ 5mos</span></p>
+							<!-- <p><span class="price">$54.50</span> <span class="per">/ 5mos</span></p> -->
 						</div>
-						<div class="img" style="background-image: url(images/bg_3.jpg);"></div>
+						<div class="img" style="background-image: url(images/colegio11.jpeg);"></div>
 						<div class="px-4">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Contamos con este nivel en la sede principal y en las Malvinas.</p>
 						</div>
 						<p class="button text-center"><a href="#" class="btn btn-tertiary px-4 py-3">Inscríbete</a></p>
 					</div>
@@ -571,11 +570,11 @@
 					<div class="pricing-entry bg-light pb-4 text-center">
 						<div>
 							<h3 class="mb-3">Nocturna</h3>
-							<p><span class="price">$89.50</span> <span class="per">/ 5mos</span></p>
+							<!-- <p><span class="price">$89.50</span> <span class="per">/ 5mos</span></p> -->
 						</div>
-						<div class="img" style="background-image: url(images/bg_5.jpg);"></div>
+						<div class="img" style="background-image: url(images/colegio12.jpeg);"></div>
 						<div class="px-4">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Contamos con este nivel unicamente en la sede de las Malvinas.</p>
 						</div>
 						<p class="button text-center"><a href="#" class="btn btn-quarternary px-4 py-3">Inscríbete</a></p>
 					</div>
@@ -584,7 +583,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section bg-light">
+	<!-- <section class="ftco-section bg-light">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-8 text-center heading-section ftco-animate">
@@ -661,37 +660,65 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="ftco-gallery">
 		<div class="container-wrap">
 			<div class="row no-gutters">
 				<div class="col-md-3 ftco-animate">
-					<a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/course-1.jpg);">
-						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+					<a href="images/colegio9.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio9.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
-						</div>
+						</div> -->
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_2.jpg);">
-						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+					<a href="images/colegio1.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio1.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
-						</div>
+						</div> -->
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_3.jpg);">
-						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+					<a href="images/colegio12.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio12.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
-						</div>
+						</div> -->
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_4.jpg);">
-						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+					<a href="images/colegio3.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio3.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
-						</div>
+						</div> -->
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="images/colegio4.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio4.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+							<span class="icon-instagram"></span>
+						</div> -->
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="images/colegio5.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio5.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+							<span class="icon-instagram"></span>
+						</div> -->
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="images/colegio6.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio6.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+							<span class="icon-instagram"></span>
+						</div> -->
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="images/colegio7.jpeg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/colegio7.jpeg);">
+						<!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+							<span class="icon-instagram"></span>
+						</div> -->
 					</a>
 				</div>
 			</div>
@@ -699,15 +726,15 @@
 	</section>
 
 
-	<?php include '/pages/footer.php'; ?>
+	<?php include 'pages/footer.php'; ?>
 
 
 
 	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+	<!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
-		</svg></div>
+		</svg></div> -->
 
 
 	<script src="js/jquery.min.js"></script>
