@@ -5,7 +5,7 @@
 	<title>INEM Simón Bolívar</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" type="image/png" href="images/escudo.JPG">
+	<link rel="icon" type="image/png" href="images/escudo.png">
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
@@ -34,6 +34,17 @@
 	<!-- END nav -->
 
 	<section class="home-slider owl-carousel">
+		<div class="slider-item" style="background-image:url(images/colegio13.png);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+					<!-- <div class="col-md-8 text-center ftco-animate">
+						<h1 class="mb-4">Vista <span> panorámica</span></h1>
+						<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Leer más</a></p>
+					</div> -->
+				</div>
+			</div>
+		</div>
 		<div class="slider-item" style="background-image:url(images/colegio0.jpeg);">
 			<div class="overlay"></div>
 			<div class="container">
@@ -46,17 +57,7 @@
 			</div>
 		</div>
 
-		<div class="slider-item" style="background-image:url(images/colegio12.jpeg);">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-					<div class="col-md-8 text-center ftco-animate">
-						<h1 class="mb-4">Vista <span> panorámica</span></h1>
-						<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Leer más</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+
 	</section>
 
 	<section class="ftco-services ftco-no-pb">
@@ -498,7 +499,7 @@
 						</div>
 						<div class="d-md-flex">
 							<div class="form-group">
-							<input type="text" class="form-control" placeholder="Correo">
+								<input type="text" class="form-control" placeholder="Correo">
 							</div>
 							<div class="form-group ml-md-4">
 								<input type="text" class="form-control" placeholder="Teléfono">
