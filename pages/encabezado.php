@@ -34,8 +34,8 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="index.php" class="nav-link">Inicio</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Institucional</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Personal</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Áreas Técnicas</a></li>
+                <li class="nav-item"><a href="teacher.php" class="nav-link">Personal</a></li>
+                <li class="nav-item"><a href="courses.php" class="nav-link">Áreas Técnicas</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Ofertas</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
