@@ -30,7 +30,7 @@
             <div class="col-md-4 col-lg-4">
                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2 mb-0">Aquí estamos ubicados</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3128.6396913617277!2d-74.1709434690796!3d11.226143892308118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff6bca7a3e4a9ebf!2zSUVEIFTDqWNuaWNhIElORU0gU2ltw7NuIEJvbMOtdmFy!5e0!3m2!1ses!2sco!4v1616303790901!5m2!1ses!2sco" width="400" height="250" style="border:0; border-radius: 1em;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3128.6396913617277!2d-74.1709434690796!3d11.226143892308118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff6bca7a3e4a9ebf!2zSUVEIFTDqWNuaWNhIElORU0gU2ltw7NuIEJvbMOtdmFy!5e0!3m2!1ses!2sco!4v1616303790901!5m2!1ses!2sco" width="100%" height="250" style="border:0; border-radius: 1em;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
