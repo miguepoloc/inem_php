@@ -23,7 +23,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
     <div class="container d-flex align-items-center">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
             <img src="images/escudo.png" style="width:6vw">
             INEM Simón Bolívar
         </a>
@@ -34,7 +34,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="index.php" class="nav-link">Inicio</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Institucional</a></li>
-                <li class="nav-item"><a href="teacher.php" class="nav-link">Personal</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Personal</a></li>
                 <li class="nav-item"><a href="courses.php" class="nav-link">Áreas Técnicas</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Ofertas</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>

@@ -54,7 +54,7 @@
         <div class="col-md-12">
           <div class="wrapper">
             <div class="row mb-5">
-              <div class="col-md-3 d-flex">
+              <div class="card col-md-3">
                 <div class="align-self-stretch box p-4 text-center">
                   <div class="col-md pr-4 d-flex topper align-items-center justify-content-center">
                     <div class="icon2 bg-inem mr-2 d-flex justify-content-center align-items-center" style="background: green !important;">
@@ -68,7 +68,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 d-flex">
+              <div class="card col-md-3">
                 <div class="align-self-stretch box p-4 text-center">
                   <div class="col-md pr-4 d-flex topper align-items-center justify-content-center">
                     <div class="icon2 bg-inem mr-2 d-flex justify-content-center align-items-center" style="background: green !important;">
@@ -80,11 +80,11 @@
                 </div>
               </div>
 
-              <div class="col-md-3 d-flex">
+              <div class="card col-md-3">
                 <div class="align-self-stretch box p-4 text-center">
                   <div class="col-md pr-4 d-flex topper align-items-center justify-content-center">
                     <div class="icon2 bg-inem mr-2 d-flex justify-content-center align-items-center" style="background: green !important;">
-                      <i class="fab fa-whatsapp" style="color: white; height: 2em;"></i>
+                      <a href="https://wa.me/573122638953" target="_blank"><i class="fab fa-whatsapp" style="color: white; height: 2.5em;"></i></a>
                     </div>
                   </div>
                   <h3 class="mb-4">Whatsapp</h3>
@@ -92,9 +92,9 @@
                 </div>
               </div>
 
-              <div class="col-md-3 d-flex">
+              <div class="card col-md-3">
                 <div class="align-self-stretch box p-4 text-center">
-                <div class="col-md pr-4 d-flex topper align-items-center justify-content-center">
+                  <div class="col-md pr-4 d-flex topper align-items-center justify-content-center">
                     <div class="icon2 bg-inem mr-2 d-flex justify-content-center align-items-center" style="background: green !important;">
                       <i class="fas fa-envelope-open-text" style="color: white; height: 2em;"></i>
                     </div>

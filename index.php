@@ -202,97 +202,145 @@
 
 
 	<section class="ftco-section ftco-no-pb">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-					<div class="col-md-8 text-center heading-section ftco-animate">
-						<h2 class="mb-4"><span>Nuestros</span> Directivos</h2>
-						<p>Contamos con una gran equipo de trabajo</p>
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+					<h2 class="mb-4"><span>Nuestros</span> Directivos</h2>
+					<p>Contamos con una gran equipo de trabajo</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/miguel_polo.jpg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Miguel José Polo Albarracín</h3>
+							<span class="position mb-2">Rector</span>
+							<div class="faded">
+								<p> Doctor en Educación (Universidad del Magdalena-RUDEColombia).</p>
+								<p>rectoria@inemsimonbolivarsm.edu.co</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<li class="ftco-animate"><a href="tel://573145922142"><span class="fas fa-phone-alt"></span></a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/miguel_polo.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Miguel Polo</h3>
-								<span class="position mb-2">Rector</span>
-								<div class="faded">
-									<p>Doctor en Educación.</p>
-									<ul class="ftco-social text-center">
-										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-									</ul>
-								</div>
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/martin.jpeg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Martín Alonso Daza Díaz</h3>
+							<span class="position mb-2">Coordinador</span>
+							<div class="faded">
+								<p>Lic.en Lenguas Modernas</p>
+								<p>madaza1965@hotmail.com</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<li class="ftco-animate"><a href="tel://573165258561"><span class="fas fa-phone-alt"></span></a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/teacher-2.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Diomedez</h3>
-								<span class="position mb-2">Coordinador</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-									</ul>
-								</div>
+				</div>
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/noris.jpeg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Noris Nidia Contreras Suárez</h3>
+							<span class="position mb-2">Coordinadora</span>
+							<div class="faded">
+								<p>Lic. Educación Básica, con énfasis en Ciencias Naturales.
+									Especialista en Gestión Educativa. </p>
+								<p>noriscontrerass@inemsimonbolivarsm.edu.co</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<!-- <li class="ftco-animate"><a href="tel://573165258561"><span class="fas fa-phone-alt"></span></a></li> -->
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/teacher-3.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Arturo</h3>
-								<span class="position mb-2">Coordinador</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-									</ul>
-								</div>
+				</div>
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/arturo.jpeg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Arturo José Comas Acuña</h3>
+							<span class="position mb-2">Coordinador</span>
+							<div class="faded">
+								<p>Lic. En Lenguas Modernas.
+									Magister en Educación. </p>
+								<p>academica@inemsimonbolivarsm.edu.co</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<!-- <li class="ftco-animate"><a href="tel://573165258561"><span class="fas fa-phone-alt"></span></a></li> -->
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/teacher-4.jpg);"></div>
+				</div>
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/yaneris.jpeg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Yaneris Mirith Escalante Mendoza</h3>
+							<span class="position mb-2">Coordinadora</span>
+							<div class="faded">
+								<p>Lic. En Lenguas Modernas.</p>
+								<p>yanerisescalantem@inemsimonbolivarsm.edu.co</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<!-- <li class="ftco-animate"><a href="tel://573165258561"><span class="fas fa-phone-alt"></span></a></li> -->
+								</ul>
 							</div>
-							<div class="text pt-3 text-center">
-								<h3>María Elena</h3>
-								<span class="position mb-2">Sistemas</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-										<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-										<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-									</ul>
-								</div>
+						</div>
+					</div>
+				</div>
+				<div class="card col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/diomedez.jpeg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Diomedes Jose Cuello Maestre</h3>
+							<span class="position mb-2">Coordinadora</span>
+							<div class="faded">
+								<p>Lic. Matemetica y Fisica.</p>
+								<p style="font-size: 90%;">diomedescuellom@inemsimonbolivarsm.edu.co</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+									<!-- <li class="ftco-animate"><a href="tel://573165258561"><span class="fas fa-phone-alt"></span></a></li> -->
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
 	<section class="ftco-section">
 		<div class="container">
