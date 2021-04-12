@@ -1,16 +1,16 @@
 <?php
 
-include_once 'pelicula.php';
+include_once 'tabla.php';
 
-class ApiPeliculas{
+class ApiPruebas{
 
 
     function getAll(){
-        $pelicula = new Pelicula();
-        $peliculas = array();
-        $peliculas["items"] = array();
+        $prueba = new Prueba();
+        $pruebas = array();
+        $pruebas["items"] = array();
 
-        $res = $pelicula->obtenerPeliculas();
+        $res = $prueba->obtenerPruebas();
 
         if($res->rowCount()){
             while ($row = $res->fetch(PDO::FETCH_ASSOC)){
@@ -18,12 +18,12 @@ class ApiPeliculas{
                 $item=array(
                     "id" => $row['id'],
                     "nombre" => $row['nombre'],
-                    "imagen" => $row['imagen'],
+                    // "imagen" => $row['imagen'],
                 );
-                array_push($peliculas["items"], $item);
+                array_push($pruebas["items"], $item);
             }
         
-            echo json_encode($peliculas);
+            echo json_encode($pruebas);
         }else{
             echo json_encode(array('mensaje' => 'No hay elementos'));
         }

@@ -11,7 +11,7 @@ class DB
     public function __construct()
     {
         $this->host     = 'localhost';
-        $this->db       = 'inem';
+        $this->db       = 'test';
         $this->user     = 'root';
         $this->password = "";
         //$this->password = "6#vWHD_$";
@@ -26,7 +26,7 @@ class DB
         try {
 
 
-            $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";charset=utf8";
+            $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";charset=";
             $options = [
                 PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
                 PDO::ATTR_EMULATE_PREPARES   => false,

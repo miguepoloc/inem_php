@@ -324,7 +324,7 @@
 						</div>
 						<div class="text pt-3 text-center">
 							<h3>Diomedes Jose Cuello Maestre</h3>
-							<span class="position mb-2">Coordinadora</span>
+							<span class="position mb-2">Coordinador</span>
 							<div class="faded">
 								<p>Lic. Matemetica y Fisica.</p>
 								<p style="font-size: 90%;">diomedescuellom@inemsimonbolivarsm.edu.co</p>
